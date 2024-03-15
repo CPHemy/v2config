@@ -1,0 +1,63 @@
+[
+    {
+        "tag": "IPv4_out",
+        "protocol": "freedom",
+        "settings": {}
+    },
+    {
+        "tag": "IPv6_out",
+        "protocol": "freedom",
+        "settings": {
+            "domainStrategy": "UseIPv6"
+        }
+    },
+    {
+        "tag": "dnsjp",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnsjp.kfccloud.cc",
+                "port": 52100,
+                "users": [{
+                    "user": "dns521",
+                    "pass": "dns521",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnssg",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnssg.kfccloud.cc",
+                "port": 52100,
+                "users": [{
+                    "user": "dns521",
+                    "pass": "dns521",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnsus",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnsus.kfccloud.cc",
+                "port": 52100,
+                "users": [{
+                    "user": "dns521",
+                    "pass": "dns521",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "protocol": "blackhole",
+        "tag": "block"
+    }
+]

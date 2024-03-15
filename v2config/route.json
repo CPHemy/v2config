@@ -1,0 +1,82 @@
+{
+    "domainStrategy": "IPOnDemand",
+    "rules": [
+        {
+            "type": "field",
+            "outboundTag": "block",
+            "ip": [
+                "geoip:private"
+            ]
+        },
+        {
+            "type": "field",
+            "outboundTag": "block",
+            "protocol": [
+                "bittorrent"
+            ]
+        },
+        {
+            "type": "field",
+            "outboundTag": "chatgpt",
+            "domain": [
+"domain:openai.com"
+            ]
+        },
+        {
+            "type": "field",
+            "outboundTag": "dnshk",
+            "domain": [
+"domain:openai.com",
+"domain:hbogoasia.hk",
+"domain:hbogoasia.com",
+"geosite:viu"
+            ]
+        },
+        {
+            "type": "field",
+            "outboundTag": "dnstw",
+            "domain": [
+"geosite:bahamut",
+"geosite:bilibili",
+"domain:hbogoasia.tw"
+            ]
+        },
+        {
+            "type": "field",
+            "outboundTag": "dnsjp",
+            "domain": [
+"geosite:abema",
+"geosite:dazn",
+"geosite:niconico",
+"domain:music-book.jp",
+"domain:kddi-video.com",
+"domain:hulu.jp",
+"domain:radiko.jp",
+"domain:konosubafd.jp",
+"domain:worldflipper.jp",
+"domain:game-version.sekai.colorfulpalette.org",
+"geosite:cygames",
+"geosite:purikonejp"
+            ]
+        },
+        {
+            "type": "field",
+            "outboundTag": "dnsus",
+            "domain": [
+"geosite:disney",
+"geosite:netflix",
+"geosite:primevideo",
+"geosite:spotify",
+"geosite:hbo",
+"geosite:cbs",
+"geosite:espn",
+"domain:fubo.tv"
+            ]
+        },
+        {
+            "type": "field",
+            "outboundTag": "IPv4_out",
+            "network": "udp,tcp"
+        }
+    ]
+}

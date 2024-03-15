@@ -1,0 +1,28 @@
+# 1 防止恶意定位您以及爬虫 
+(.+.|^)(whatismyip|whatismyi­pad­dress|ipip|iplo­ca­tion|myip|whatismy­browser).(cn|com|net|com|net­work)
+# 2 屏蔽迅雷 
+(.?)(xun­lei|sandai|Thun­der|XL­LiveUD)(.)
+# 3 屏蔽临时邮箱 
+(^.*@)(guer­ril­la­mail|guer­ril­la­mail­block|shark­lasers|grr|poke­mail|spam4|bc­cto|chacuo|027168).(info|biz|com|de|net|org|me|la)
+# 4 屏蔽磁力 
+# (tor­rent|.tor­rent|peer_id=|in­fo_hash|get_peers|find­_n­ode|Bit­Tor­rent|an­nounce_peer|an­nounce.php?passkey=)
+# 5 屏蔽 360 
+(.+.|^)(360|so).(cn|com)
+# 6 屏蔽定位 
+(api|ps|sv|off­navi|newvec­tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+# 7 禁用 BT 防止版权争议 无描述 
+(tor­rent|.tor­rent|peer_id=|in­fo_hash|get_peers|find­_n­ode|Bit­Tor­rent|an­nounce_peer|an­nounce.php?passkey=)
+# 8 屏蔽轮子网站 屏蔽轮子网站 
+(.*.||)(dafa­hao|minghui|falu­naz|falun­gong|falundafa).(cn|com|org|net|club|net|fr|tw|hk)
+# 9 敏感新闻 敏感类新闻网站 
+(.*.||)(gov|12377|12315|talk.news.pts.org|cread­ers|zhuich­aguoji|efcc.org|cy­ber­po­lice|abolu­owang|tu­idang|epochtimes|ny­times|zhengjian|110.qq|mingjingnews|in­medi­ahk|xin­sheng|banned­book|nt­dtv|12321|se­cretchina|epochweekly|cn.rfi).(cn|com|org|net|club|net|fr|tw|hk)
+# 10 防止流量劫持及隐私泄露 
+(kpzip)(.)
+# 11 禁止 百度高精度定位 防止 IP 与客户端地理位置被记录 禁止 百度高精度定位 防止 IP 与客户端地理位置被记录 
+(api|ps|sv|off­navi|newvec­tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+# 12 屏蔽腾讯管家 防止服务器检测 
+(.*.||)(guan­jia.qq.com|qqpcmgr|QQPCMGR)
+# 13 屏蔽金山毒霸 防止服务器检测 
+(.*.||)(ris­ing|king­soft|duba|xin­dubawukong|jin­shan­duba).(com|net|org)
+# 14 HKTS 防止睿智客户 
+(.*.||)(netvi­ga­tor|tor­pro­ject).(com|cn|net|org)

@@ -1,0 +1,153 @@
+[
+    {
+        "tag": "IPv4_out",
+        "protocol": "freedom",
+        "settings": {}
+    },
+    {
+        "tag": "IPv6_out",
+        "protocol": "freedom",
+        "settings": {
+            "domainStrategy": "UseIPv6"
+        }
+    },
+    {
+        "tag": "chatgpt",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "155.248.211.88",
+                "port": 52020,
+                "users": [{
+                    "user": "dnsnf",
+                    "pass": "dnsnf",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnshk",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnshk.seagullsdream.xyz",
+                "port": 52020,
+                "users": [{
+                    "user": "dnsnf",
+                    "pass": "dnsnf",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnstw",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnstw.seagullsdream.xyz",
+                "port": 52020,
+                "users": [{
+                    "user": "dnsnf",
+                    "pass": "dnsnf",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnsjp",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnsjp.seagullsdream.xyz",
+                "port": 52020,
+                "users": [{
+                    "user": "dnsnf",
+                    "pass": "dnsnf",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnskr",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnskr.seagullsdream.xyz",
+                "port": 52020,
+                "users": [{
+                    "user": "dnsnf",
+                    "pass": "dnsnf",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnssg",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnssg.seagullsdream.xyz",
+                "port": 52020,
+                "users": [{
+                    "user": "dnsnf",
+                    "pass": "dnsnf",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnsus",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnsus.seagullsdream.xyz",
+                "port": 52020,
+                "users": [{
+                    "user": "dnsnf",
+                    "pass": "dnsnf",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnsuk",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "dnsuk.seagullsdream.xyz",
+                "port": 52020,
+                "users": [{
+                    "user": "dnsnf",
+                    "pass": "dnsnf",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "tag": "dnsau",
+        "protocol": "socks",
+        "settings": {
+            "servers": [{
+                "address": "168.138.27.10",
+                "port": 52020,
+                "users": [{
+                    "user": "dnsnf",
+                    "pass": "dnsnf",
+                    "level": 0
+                }]
+            }]
+        }
+    },
+    {
+        "protocol": "blackhole",
+        "tag": "block"
+    }
+]
