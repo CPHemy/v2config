@@ -18,7 +18,7 @@ Nodes:
     ApiConfig:
       ApiHost: "https://kfccloud.cc"
       ApiKey: "apuwRCb@8zz2#rzR"
-      NodeID: 41
+      NodeID: 14
       NodeType: Shadowsocks # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
       Timeout: 30 # Timeout for the api request
       EnableVless: false # Enable Vless for V2ray Type
